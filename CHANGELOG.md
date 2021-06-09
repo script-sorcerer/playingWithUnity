@@ -9,3 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1-alpha.cameraFollow] - 2021-06-09
 ### Added
 - Camera will follow the gnome with some limitations
+
+[Unreleased]: https://github.com/JuStPiNkCoDeR/playingWithUnity/compare/v0.0.1-alpha.cameraFollow...HEAD
+[0.0.1-alpha.cameraFollow]: https://github.com/JuStPiNkCoDeR/playingWithUnity/releases/tag/v0.0.1-alpha.cameraFollow
