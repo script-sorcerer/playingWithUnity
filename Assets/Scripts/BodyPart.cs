@@ -5,16 +5,13 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class BodyPart : MonoBehaviour
 {
-    // The sprite to use when ApplyDamageSprite is called
-    // with damage type 'slicing'.
+    [Tooltip("The sprite to use when ApplyDamageSprite is called with damage type 'slicing'.")]
     public Sprite detachedSprite;
     
-    // The sprite to use when ApplyDamageSprite is called
-    // with damage type 'burn'.
+    [Tooltip("The sprite to use when ApplyDamageSprite is called with damage type 'burn'.")]
     public Sprite burnedSprite;
 
-    // Represents the position and rotation that a blood fountain will
-    // appear at on the main body.
+    [Tooltip("Represents the position and rotation that a blood fountain will appear at on the main body.")]
     public Transform bloodFountainOrigin;
 
     // If true, this object will remove its collision, joins and rigidbody

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Gnome : MonoBehaviour
 {
+    public Transform cameraFollowTarget;
     // Start is called before the first frame update
     void Start()
     {
