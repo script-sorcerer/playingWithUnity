@@ -66,16 +66,16 @@ public class BodyPart : MonoBehaviour
     }
 
     // Changes the sprite for this part based on taken damage kind.
-    public void ApplyDamageSprite(Gnome.damageType damageType)
+    public void ApplyDamageSprite(Gnome.DamageType damageType)
     {
         Sprite spriteToUse = null;
 
         switch (damageType)
         {
-            case Gnome.damageType.Burning:
+            case Gnome.DamageType.Burning:
                 spriteToUse = burnedSprite;
                 break;
-            case Gnome.damageType.Slicing:
+            case Gnome.DamageType.Slicing:
                 spriteToUse = detachedSprite;
                 break;
         }
