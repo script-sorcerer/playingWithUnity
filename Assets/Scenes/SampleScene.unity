@@ -1340,6 +1340,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikesBrown (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5541304677137532229, guid: defb530278c89415aaa602e4cc4a0f1c, type: 3}
+      propertyPath: onTouch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1815472984}
+    - target: {fileID: 5541304677137532229, guid: defb530278c89415aaa602e4cc4a0f1c, type: 3}
+      propertyPath: onTouch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TrapTouched
+      objectReference: {fileID: 0}
+    - target: {fileID: 5541304677137532229, guid: defb530278c89415aaa602e4cc4a0f1c, type: 3}
+      propertyPath: onTouch.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5541304677137532229, guid: defb530278c89415aaa602e4cc4a0f1c, type: 3}
+      propertyPath: onTouch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: defb530278c89415aaa602e4cc4a0f1c, type: 3}
 --- !u!1 &1815472982
@@ -1502,7 +1518,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1963912280
 GameObject:
@@ -1629,6 +1645,18 @@ PrefabInstance:
       propertyPath: onTouch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1815472984}
+    - target: {fileID: 5541304677137532229, guid: defb530278c89415aaa602e4cc4a0f1c, type: 3}
+      propertyPath: onTouch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TrapTouched
+      objectReference: {fileID: 0}
+    - target: {fileID: 5541304677137532229, guid: defb530278c89415aaa602e4cc4a0f1c, type: 3}
+      propertyPath: onTouch.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5541304677137532229, guid: defb530278c89415aaa602e4cc4a0f1c, type: 3}
+      propertyPath: onTouch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6561541973014472081, guid: defb530278c89415aaa602e4cc4a0f1c, type: 3}
       propertyPath: m_IsTrigger
       value: 0
