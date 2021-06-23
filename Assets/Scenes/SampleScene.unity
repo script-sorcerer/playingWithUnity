@@ -1404,7 +1404,7 @@ MonoBehaviour:
   startingPoint: {fileID: 1916685179}
   rope: {fileID: 64933966}
   cameraFollow: {fileID: 519420030}
-  gnomePrefab: {fileID: 4941695106575033025, guid: 986b635d8c06342558e2ac3264bb708b, type: 3}
+  gnomePrefab: {fileID: 4941695106575033025, guid: 9f7f6b0ec8efd4a0fa93d65a5be9e5ca, type: 3}
   mainMenu: {fileID: 0}
   gameplayMenu: {fileID: 0}
   gameOverMenu: {fileID: 0}
