@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -17,18 +14,18 @@ public class SignalOnTouch : MonoBehaviour
     // When we enter a trigger area, call SendSignal.
     public void OnTriggerEnter2D(Collider2D other)
     {
-        SendSignal(other.gameObject);
+        _sendSignal(other.gameObject);
     }
 
     // When we collide with this object, call SendSignal.
     public void OnCollisionEnter2D(Collision2D other)
     {
-        SendSignal(other.gameObject);
+        _sendSignal(other.gameObject);
     }
 
     // Checks to see if this object was tagged as Player, and invoke
     // the UnityEvent if it was.
-    void SendSignal(GameObject objectThatHit)
+    private void _sendSignal(GameObject objectThatHit)
     {
         // Was this object tagged 'Player'?
         if (!objectThatHit.CompareTag("Player")) return;
@@ -47,17 +44,5 @@ public class SignalOnTouch : MonoBehaviour
             
         // Invoke the event.
         onTouch.Invoke();
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
